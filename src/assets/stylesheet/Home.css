@@ -1,0 +1,51 @@
+section{
+    width: 100%;
+}
+
+.imagen{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.imagen img{
+    height: 25rem;
+    position: relative;
+    width: 100%;
+}
+.imagen .textos{
+    line-height: 4.3rem;
+    position: absolute;
+    margin-top: 1rem;
+    background: transparent;
+    padding-left: 15rem;
+}
+.imagen .img-text{
+    background: transparent;
+    color: #FFF;
+}
+.imagen .titulo{
+    font-size: 52px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+}
+.imagen .parrafo{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+.imagen button{
+    width: 129px;
+    height: 51px;
+    background: #2A7AE4;
+    color: #FFF;
+    cursor: pointer;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    transition: 200ms;
+}
+.imagen button:hover{
+    transform: scale(1.1);
+}

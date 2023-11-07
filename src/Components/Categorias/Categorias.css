@@ -1,0 +1,31 @@
+
+.section{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 20%;
+}
+
+.section .titulo{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.section .titulo h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.section .titulo a{
+    /*margin-top: 20px;*/
+    text-decoration: none;
+    color:  #2A7AE4;
+    text-align: center;
+}
+
+.section .datos{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+}

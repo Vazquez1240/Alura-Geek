@@ -1,0 +1,100 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    height: 5rem;
+    margin: 2rem 3rem;
+}
+
+.logo-buscador{
+    padding-left: 4rem;
+    width: 60%;
+    display: flex;
+}
+.logo-buscador .logo{
+    margin: auto 0;
+    width: 20%;
+    height: auto;
+}
+.logo-buscador .logo img{
+    margin-top: 7px;
+    width: 155px;
+    height: 45px;
+}
+.buscador{
+    display: flex;
+    height: 2.2rem;
+    margin: auto 0;
+}
+.buscador input{
+    background: #F5F5F5;
+    width: 300px;
+    height: 40px;
+    font-size: 1rem;
+    margin-left: 14px;
+    font-weight: 400;
+    font-family: 'Dosis', sans-serif;
+    padding-left: 1rem;
+    border: 1px solid #F5F5F5;;
+    border-radius: 20px;
+    
+}
+.buscador input:focus{
+    border: 1px solid #2A7AE4;
+}
+
+.buscador #btn-search{
+    position: absolute;
+    margin-left: 17rem;
+    margin-top: 5px;
+    cursor: pointer;
+    background: #F5F5F5;
+    border: none;
+}
+
+
+.buscador #btn-search img{
+    position: absolute;
+    background: transparent;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-top: 7px;
+    justify-content: flex-end;
+}
+.login #login{
+    width: 8rem;
+    height: 2.45rem;
+    margin: auto 0;
+    border: 1px solid #2A7AE4;
+    border-radius: 10px;
+    margin-right: 4rem;
+    background: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #2A7AE4;
+    transition: 200ms;
+}
+.login #login:hover{
+    transform: scale(1.1);
+}
+.login #logut{
+    display: none;
+    width: 8rem;
+    height: 2.45rem;
+    margin: auto 0;
+    border: 1px solid #2A7AE4;
+    border-radius: 10px;
+    margin-right: 4rem;
+    background: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #2A7AE4;
+    transition: 200ms;
+}
+.login #logut:hover{
+    transform: scale(1.1);
+}

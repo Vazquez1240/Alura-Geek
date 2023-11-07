@@ -1,0 +1,66 @@
+{
+                productoCategoria.length > 0 &&
+                <section id={categoria}>
+                    <h2>{categoria[0]}</h2>
+                    <div className="seccion">
+                        <li><a href="#">Ver mas</a></li>
+                        <div className="productos">
+                            {productoCategoria.map((producto, index) => (
+                                <Cards datos={producto} key={index} />
+                            ))}
+                        </div>
+                    </div>
+                </section>
+                
+            }
+
+seccionesCreadas.map(seccion => {
+                    console.log("Soy seccion", seccion);
+                    const {id, nombre, image, precio,stock, categoria, marca} = seccion;
+                    return(
+                        <>
+                           <h2>{categoria[0]}</h2>
+                            <div className="seccion">
+                                <li><a href="#">Ver mas</a></li>
+                                <div className="productos">
+                                    {productoCategoria.map((producto, index) => (
+                                        <Cards datos={producto} key={index} />
+                                    ))}
+                                </div>
+                            </div>
+                        </>
+                    )
+                })
+
+<Categorias key={index}  data={producto}
+                    productoCategoria={productos.filter(product => product.categoria === producto.categoria)}
+                    />
+
+
+/*
+        <>
+        
+        <section className="seccion">
+            {
+                Consolas.map((consola) => {
+                    const {nombre, categoria} = consola
+                    return (
+                        <Cards datos={consola}/>
+                    )
+                    
+                })
+            }
+        </section>
+
+        <section className="seccion">
+            {
+                Juguetes.map((jugute) => {
+                    const {nombre, id} = jugute
+                    return(
+                        <Cards datos={jugute}/>
+                    )
+                })
+            }
+        </section> 
+        </>
+        */

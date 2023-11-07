@@ -1,0 +1,228 @@
+{
+    "categorias": [
+        {
+            "id": "consolas",
+            "nombre": "consolas",
+            "subcategorias": [
+                "tecnologia",
+                "gamer"
+            ]
+        },
+        {
+            "id": "jugetes",
+            "nombre": "jugutes",
+            "subcategorias": [
+                "niños"
+            ]
+        },
+        {
+            "id": "muebles",
+            "nombre": "muebles",
+            "subcategorias": [
+                "casa",
+                "hogar"
+            ]
+        },
+        {
+            "id": "laptos",
+            "nombre": "laptops",
+            "subcategorias": [
+                "tecnologia",
+                "estudio",
+                "computacion",
+                "gamer",
+                "programacion"
+            ]
+        }
+    ],
+    "Producto" : [
+        {
+            "id" : 1,
+            "nombre" : "playstation 5",
+            "image" : "https://images.unsplash.com/photo-1607016284318-d1384bf5edd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvbnNvbGFzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+            "precio" : 100,
+            "stock" : 100,
+            "categoria" :"consolas",
+            "subcategoria": "tecnologia",
+            "marca" : "Sony",
+            "descripcion" : "¡Experimenta la revolución del juego con la PlayStation 5 (PS5)! Gráficos 4K deslumbrantes, tiempos de carga ultrarrápidos y un controlador DualSense inmersivo. ¡No te pierdas la última generación de juegos! Compra la PS5 ahora."
+        },
+        {
+            "id" : 2,
+            "nombre" : "Spiderman",
+            "image" : "https://images.unsplash.com/photo-1529335764857-3f1164d1cb24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1889&q=80",
+            "precio" : 100,
+            "stock" : 100,
+            "categoria" : "jugetes",
+            "subcategoria": "niños",
+            "marca" : "Sony",
+            "descripcion" : "¡Spider-Man, el icónico superhéroe arácnido, cobra vida en forma de juguete! Con detalles auténticos, este juguete de Spider-Man te permite recrear emocionantes aventuras en tu propia sala de estar. ¡Lanza tus propias redes, escala paredes imaginarias y derrota a los villanos con este increíble juguete de Spider-Man! Perfecto para fanáticos de todas las edades, este juguete captura la esencia del héroe arácnido y es ideal para horas de diversión y juegos creativos."
+        },
+        {
+            "id" : 3,
+            "nombre" : "Silla de madera",
+            "image" : "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bXVlYmxlcyUyMGRlJTIwbWFkZXJhfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+            "precio" : 100,
+            "stock" : 100,
+            "categoria" : "muebles",
+            "subcategoria": "hogfar",
+            "marca" : "carpintero C.V",
+            "descripcion" : "Esta silla de madera combina la elegancia atemporal con la funcionalidad. Fabricada con madera de alta calidad, esta silla es duradera y resistente, ofreciendo comodidad y estilo a tu hogar. Su diseño clásico se adapta a cualquier decoración, desde lo rústico hasta lo moderno. Ya sea como una silla de comedor, un asiento en tu escritorio o un acento en tu sala de estar, esta silla de madera es la elección perfecta para añadir calidez y confort a tu espacio."
+        },
+        {
+            "id" : 4,
+            "nombre" : "Macbook Pro Negra",
+            "image" : "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "precio" : 100,
+            "stock" : 100,
+            "categoria" : "laptos",
+            "subcategoria": "tecnologia",
+            "marca" : "apple",
+            "descripcion" : "La MacBook Pro negra es la combinación perfecta de estilo y rendimiento. Con su elegante acabado en negro, esta laptop se destaca en cualquier entorno. Bajo su apariencia sofisticada se encuentra un potente motor que te permite realizar tareas exigentes con facilidad.Su pantalla de alta resolución y colores vibrantes te sumergirá en tus proyectos, películas y juegos favoritos. La MacBook Pro negra es la herramienta ideal para profesionales creativos y usuarios exigentes que buscan la máxima potencia en un diseño atractivo. Haz una declaración de estilo y productividad con esta impresionante MacBook Pro."
+        },
+        {
+            "id" : 5,
+            "nombre" : "Xbox",
+            "image" : "https://images.unsplash.com/photo-1612801799890-4ba4760b6590?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29uc29sYXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+            "precio" : 100,
+            "stock" : 100,
+            "categoria" : "consolas",
+            "subcategoria": "tecnologia",
+            "marca" : "Microsoft",
+            "descripcion" : "La Xbox One es una experiencia de entretenimiento completa en una sola consola. Disfruta de emocionantes juegos con gráficos de alta definición y un control preciso, sumérgete en programas y películas en streaming, y controla tu experiencia con comandos de voz y gestos gracias a Kinect. Ya sea para juegos, películas o contenido multimedia, la Xbox One ofrece una amplia gama de opciones para que disfrutes al máximo de tu tiempo libre en un solo dispositivo."
+        },
+        {
+            "id" : 6,
+            "nombre" : "Nintendo Switch",
+            "image" : "https://images.unsplash.com/photo-1550921464-9f7a27f99edc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29uc29sYXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+            "precio" : 100,
+            "stock" : 100,
+            "categoria" : "consolas",
+            "subcategoria": "tecnologia",
+            "marca" : "Nintendo",
+            "descripcion" : "Nintendo Switch: Juega en casa o en movimiento con esta consola versátil. Su diseño portátil te permite llevar tus juegos a donde quieras. Disfruta de emocionantes aventuras y juegos multijugador con amigos y familiares. Experimenta la diversión en cualquier lugar con Nintendo Switch."
+        },
+        {
+            "id" : 7,
+            "nombre" : "Batman",
+            "image" : "https://images.unsplash.com/photo-1531259683007-016a7b628fc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
+            "precio" : 100,
+            "stock" : 100,
+            "categoria" : "jugetes",
+            "subcategoria": "niños",
+            "marca" : "DC",
+            "descripcion" : "El juguete de Batman es la figura perfecta para los fanáticos del Caballero de la Noche. Con detalles asombrosos y una pose lista para la acción, este Batman de juguete te permite llevar a cabo las aventuras más emocionantes en el mundo de Gotham. Acompaña a Batman en su lucha contra el crimen y recrea tus momentos favoritos de la saga. ¡Lleva a casa a tu héroe favorito y deja que la diversión comience!"
+        },
+        {
+            "id": 8,
+            "nombre" : "Pokemon",
+            "image" : "https://images.unsplash.com/photo-1640271443625-3276ed8f62b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBva2Vtb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+            "precio" : 250,
+            "stock" : 100,
+            "categoria" : "jugetes",
+            "subcategoria" : "niños",
+            "marca" : "Nintendo",
+            "descripcion" : "La figura de Charizard tipo Funko es un tesoro para los amantes de Pokémon. Este adorable y detallado Charizard en formato Funko Pop captura la esencia del icónico Pokémon de fuego. Con su diseño compacto y estilo característico de Funko, esta figura es perfecta para exhibir en tu colección o para darle un toque de diversión a tu espacio. Añade un toque de carisma Pokémon a tu vida con esta figura de Charizard Funko Pop."
+        },
+        {
+            "id": 9,
+            "nombre" : "Nintendo GameBoy",
+            "image" : "https://images.unsplash.com/photo-1531525645387-7f14be1bdbbd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8R2FtZUJveXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "precio" : 250,
+            "stock" : 100,
+            "categoria" : "consolas",
+            "subcategoria" : "tecnologia",
+            "marca" : "Nintendo",
+            "descripcion" : "La GameBoy es un ícono atemporal de la historia de los videojuegos. Esta consola portátil te transporta de vuelta a la nostalgia de los 90, con una amplia biblioteca de juegos clásicos que te harán revivir viejas aventuras. Con su diseño compacto y duradero, la GameBoy es perfecta para jugar en cualquier lugar. Sumérgete en horas de diversión retro y experimenta la magia de los videojuegos de la vieja escuela con la GameBoy"
+        },
+        {
+            "id": 10,
+            "nombre" : "Pokebola",
+            "image" : "https://images.unsplash.com/photo-1542779283-429940ce8336?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+            "precio" : 250,
+            "stock" : 100,
+            "categoria" : "jugetes",
+            "subcategoria" : "niños",
+            "marca" : "Nintendo",
+            "descripcion" : "La Pokébola es un símbolo icónico del mundo Pokémon. Esta réplica captura la esencia de la aventura y la emoción de atrapar y entrenar a tus Pokémon favoritos. Con detalles auténticos y un diseño realista, esta Pokébola te permite sentirte como un verdadero Entrenador Pokémon. ¡Llévala contigo en tus aventuras y prepárate para atrapar em all"
+        }
+        ,
+        {
+            "id": 11,
+            "nombre" : "Sillon",
+            "image" : "https://images.unsplash.com/photo-1591935893481-4a5fa6671ec0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG11ZWJsZXMlMjBkZSUyMG1hZGVyYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "precio" : 250,
+            "stock" : 100,
+            "categoria" : "muebles",
+            "subcategoria" : "casa",
+            "marca" : "carpintero C.V",
+            "descripcion" : "Este sillón es el epítome del confort y el estilo. Con su diseño elegante y acogedor, se convierte en el lugar perfecto para relajarte después de un largo día. Elaborado con materiales de alta calidad y un diseño ergonómico, este sillón ofrece un soporte excepcional para tu cuerpo. Ya sea para leer un libro, ver una película o simplemente descansar, este sillón te brinda la comodidad que mereces. Transforma tu espacio y añade un toque de lujo con este sillón."
+        },
+        {
+            "id": 12,
+            "nombre" : "Silla Moderna",
+            "image" : "https://images.unsplash.com/photo-1519947486511-46149fa0a254?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fG11ZWJsZXMlMjBkZSUyMG1hZGVyYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "precio" : 250,
+            "stock" : 100,
+            "categoria" : "muebles",
+            "subcategoria" : "casa",
+            "marca" : "carpintero C.V",
+            "descripcion" : "Esta silla moderna es la definición de elegancia y sofisticación en diseño. Con líneas limpias y un aspecto contemporáneo, se convierte en un punto focal en cualquier espacio. Fabricada con materiales de vanguardia, esta silla combina comodidad y estilo de manera excepcional. Ya sea como una pieza de acento en tu hogar o en tu oficina, esta silla moderna añade un toque de modernidad y clase a cualquier entorno."
+        },
+        {
+            "id": 13,
+            "nombre" : "Mesa para dia de campo",
+            "image" : "https://images.unsplash.com/photo-1520869309377-88c9274a27c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjN8fG11ZWJsZXMlMjBkZSUyMG1hZGVyYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "precio" : 250,
+            "stock" : 100,
+            "categoria" : "muebles",
+            "subcategoria" : "casa",
+            "marca" : "carpintero C.V",
+            "descripcion" : "Esta mesa de picnic es la compañera perfecta para tus aventuras al aire libre. Con un diseño resistente y funcional, te brinda un lugar cómodo para disfrutar de comidas al aire libre, picnics en el parque o reuniones familiares en la naturaleza. Fabricada con materiales duraderos, esta mesa es fácil de transportar y montar, lo que la hace ideal para actividades al aire libre. Disfruta de momentos memorables en la naturaleza con esta mesa de picnic, diseñada para tu comodidad y conveniencia."
+        },
+        {
+            "id": 14,
+            "nombre" : "Laptop Asus",
+            "image" : "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bGFwdG9wc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "precio" : 250,
+            "stock" : 100,
+            "categoria" : "laptos",
+            "subcategoria" : "tecnologia",
+            "marca" : "asus",
+            "descripcion" : "La laptop ASUS es sinónimo de rendimiento y elegancia. Con un diseño sofisticado y potencia de vanguardia, esta laptop te brinda la capacidad de hacer más. Ya sea para trabajar, estudiar o jugar, la ASUS es una compañera confiable que se adapta a tus necesidades. Su pantalla de alta resolución y duración de batería te mantienen productivo en movimiento. Descubre un mundo de posibilidades con esta laptop ASUS, donde el estilo se encuentra con el rendimiento en un solo dispositivo."
+        },
+        {
+            "id": 15,
+            "nombre" : "Laptop Dell",
+            "image" : "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGFwdG9wc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "precio" : 250,
+            "stock" : 100,
+            "categoria" : "laptos",
+            "subcategoria" : "tecnologia",
+            "marca" : "dell",
+            "descripcion" : "La laptop Dell es sinónimo de calidad y confiabilidad. Con un diseño elegante y un rendimiento excepcional, esta laptop es tu socio ideal para la productividad y el entretenimiento. Equipada con tecnología de última generación y una pantalla impresionante, te permite disfrutar de una experiencia informática envolvente. Ya sea para el trabajo o el juego, la laptop Dell te ofrece el rendimiento y la durabilidad que necesitas. Eleva tu experiencia informática con Dell, donde la innovación y la calidad se unen en un solo dispositivo."
+        },
+        {
+            "id": 16,
+            "nombre" : "Laptop HP",
+            "image" : "https://images.unsplash.com/photo-1577375729152-4c8b5fcda381?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+            "precio" : 250,
+            "stock" : 100,
+            "categoria" : "laptos",
+            "subcategoria" : "tecnologia",
+            "marca" : "hp",
+            "descripcion" : "La laptop HP es la elección perfecta para quienes buscan un equilibrio entre estilo y rendimiento. Con un diseño moderno y características avanzadas, esta laptop te brinda la versatilidad que necesitas en un dispositivo portátil. Su potencia y capacidad de respuesta hacen que trabajar, estudiar o disfrutar del entretenimiento sea una experiencia excepcional. La laptop HP combina tecnología de vanguardia con una elegancia atemporal para ofrecerte la calidad y confiabilidad que esperas de HP. Descubre la excelencia en informática con esta laptop."
+        },
+        {
+            "id": 17,
+            "nombre" : "Laptop Toshiba",
+            "image" : "https://plus.unsplash.com/premium_photo-1673548917361-12f3c0cf51a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+            "precio" : 250,
+            "stock" : 100,
+            "categoria" : "laptos",
+            "subcategoria" : "tecnologia",
+            "marca" : "toshiba",
+            "descripcion" : "Laptop Toshiba: Innovación confiable en tus manos. Con un legado de calidad y durabilidad, esta laptop es tu compañera de confianza para la productividad y el entretenimiento. Diseñada para ofrecer un rendimiento excepcional y una experiencia informática sin complicaciones, la laptop Toshiba te brinda la potencia que necesitas. Ya sea para trabajar, estudiar o disfrutar del contenido multimedia, Toshiba ha sido sinónimo de excelencia en informática durante décadas. Experimenta la calidad y el compromiso de Toshiba con esta laptop de clase mundial."
+        }
+    ]
+}
